@@ -218,7 +218,7 @@ span{
 .prescriptionsContent img{
       width: 20px;
       height: 20px;
-      content: url("../public/files.png");
+      content: url("assets/files.png");
       float: left;
       margin-right: 4px;
 }
@@ -236,7 +236,7 @@ span{
       float: left;
       width: 40px;
       height: 40px;
-      content: url("../public/test_result.png");
+      content: url("assets/test_result.png");
       margin-right: 10px;
       padding: 10px;
       background-color: #d6e0e0;

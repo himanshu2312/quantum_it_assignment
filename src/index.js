@@ -163,9 +163,9 @@ const statusInfo=()=>{
       var hr=document.createElement("p");
       hr.innerHTML=User.heartRate
       var bt=document.createElement("p");
-      bt.innerHTML=User.heartRate
+      bt.innerHTML=User.bodyTemp
       var g=document.createElement("p");
-      g.innerHTML=User.heartRate
+      g.innerHTML=User.glucose
       
       document.getElementById("heartRateCard").appendChild(hr);
       document.getElementById("temperatureCard").appendChild(bt);

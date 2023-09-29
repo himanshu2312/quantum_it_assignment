@@ -1,0 +1,284 @@
+.home-container{
+      background-color: #e6eded;
+}
+
+.leftSideBar{
+      max-width: 70px;
+      width: 100%;
+      min-height: 100%;
+      background-color: #006064;
+      position: fixed;
+      top:0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+}
+
+.barItems{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      margin-top: 20px;
+}
+
+.topIcon{
+      width: 30px;
+      height: 30px;
+      margin: 5px;
+}
+
+.barItems a,.leftSideBar a{
+      margin: 5px;
+      padding: 10px 0px;
+}
+
+.dashboard{
+      margin-left: 70px;
+      padding: 30px 40px;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+}
+
+.topBar{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+}
+
+.topBar a{
+      text-decoration: none;
+      color: #646b6b;
+      font-size: small;
+      font-weight: 700;
+}
+
+.topBar a p, .profileHeader p{
+      margin: 0%;
+}
+
+.notificationIcon{
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+}
+
+.dropIcon{
+      width: 10px;
+      height: 10px;
+      margin-left: 5px;
+}
+
+.userName{
+      color: black;
+      font-size: small;
+      font-weight: 700;
+}
+
+.profileHeader{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.profileHeader .profileIcon{
+      border-radius: 50px;
+      padding: 0px 5px;
+}
+
+.profileHeader .profileIcon img{
+      width: 40px;
+      height: 40px;
+}
+
+.dashboard h4{
+      margin-top: 15px;
+      color: black;
+      font-weight: 500;
+}
+
+.dashboardCards{
+      display: flex;
+      justify-content: space-between;
+      align-items:start;
+      
+}
+.dashboardCards .profileInformationCards,.contentCards{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 10px;
+}
+.profileInformationCards{
+      max-width: 30%;
+}
+.contentCards{
+      padding-right: 0%;
+      max-width: 70%;
+}
+
+.profileInformationCards .profileCard{
+      margin: 10px 0px;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5%;
+}
+
+.profileCard .profileImg img{
+      margin-top: 20px;
+      border-radius: 20%;
+      width: 100px;
+      height: 100px;
+      /* border: 1px solid black; */
+}
+
+.profileCard h5{
+      margin: 0%;
+      padding-top: 15px;
+      color: black;
+      font-weight: 600;
+}
+.profileCard p{
+      margin: 0%;
+}
+.profileCard a{
+      margin: 20px;
+      font-weight: 500;
+      font-size: small;
+      padding: 10px 24px;
+}
+
+span{
+      color: #646b6b;
+      font-size: small;
+      font-weight: 500;
+}
+
+.profileInformationCards .informationCard{
+      margin: 10px 0px;
+      padding: 10px;
+      border-radius: 5%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.informationCard table th{
+      font-size: small;
+      font-weight: 600;
+}
+.informationCard h5, .prescriptionsCrad h5, .testReportCard h5{
+      margin: 0%;
+      color: black;
+      font-weight: 600;
+      padding: 15px;
+}
+.informationCard table,.prescriptionsCrad table, .testReportCard table{
+      margin: 15px;
+      margin-top: 0px;
+}
+
+.contentCards .prescriptionsCrad,.testReportCard{
+      margin: 10px 0px;
+      padding: 10px;
+      border-radius: 5%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+}
+
+.prescriptionsCrad button{
+      font-weight: 700;
+      font-size: small;
+      margin: 15px;
+      padding: 15px 0px;
+}
+
+.headRow td{
+      font-size: small;
+      padding: 15px 0px;
+      padding-left: 4px;
+}
+
+.prescriptionsDeails .prescriptionsContent td{
+      font-weight: 500;
+      color: #646b6b;
+      padding: 4px;
+}
+
+.prescriptionsContent img{
+      width: 20px;
+      height: 20px;
+      content: url("../public/files.png");
+      float: left;
+      margin-right: 4px;
+}
+
+.testReportCard table{
+      margin-top: 15px;
+}
+
+.testDetails td{
+      color: black;
+}
+
+.testDetails td img{
+      border-radius: 5px;
+      float: left;
+      width: 40px;
+      height: 40px;
+      content: url("../public/test_result.png");
+      margin-right: 10px;
+      padding: 10px;
+      background-color: #d6e0e0;
+}
+
+.testDetails button{
+      text-decoration: none;
+      border: none;
+      background-color: white;
+      font-weight: 700;
+      font-size: larger;
+      padding: 0%;
+      margin: 0%;
+      color: rgb(16, 94, 16);
+}
+
+.statusCards{
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 10px 0px;
+      padding-bottom: 0px;
+}
+
+.statusCards .heartRateCard,.temperatureCard,.glucoseCard{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 5px;
+      margin-top: 0%;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5%;
+}
+
+.heartRateCard img,.temperatureCard img, .glucoseCard img{
+      margin: 30px;
+}
+
+.heartRateCard p,.temperatureCard p, .glucoseCard p{
+     color: black;
+     font-weight: 700;
+     font-size: large;
+}
